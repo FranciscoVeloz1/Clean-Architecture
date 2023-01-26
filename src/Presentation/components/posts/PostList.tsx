@@ -10,7 +10,7 @@ const PostList = () => {
 
   return (
     <div className="border border-white flex flex-col gap-3 p-4 rounded-md">
-      {data!.slice(0, 10).map((d) => (
+      {data!.map((d) => (
         <PostItem post={d} key={d.id} />
       ))}
     </div>
