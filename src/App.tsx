@@ -1,6 +1,5 @@
 import Home from "@pages/Home";
 import Add from "@pages/Add";
-import Docs from "@pages/Docs";
 import Layout from "@components/Layout";
 
 import { Routes, BrowserRouter, Route } from "react-router-dom";
@@ -16,7 +15,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/add" element={<Add />} />
-            <Route path="/docs" element={<Docs />} />
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -21,7 +21,8 @@
       "@pages/*": ["Presentation/pages/*"],
       "@components/*": ["Presentation/components/*"],
       "@models/*": ["Models/*"],
-      "@Data/*": ["Data/*"]
+      "@Data/*": ["Data/*"],
+      "@Services/*": ["Services/*"]
     }
   },
   "include": ["src"],

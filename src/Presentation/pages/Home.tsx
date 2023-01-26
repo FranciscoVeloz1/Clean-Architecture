@@ -3,7 +3,7 @@ import PostList from "@components/posts/PostList";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold">Posts</h1>
+      <h1 className="text-center text-4xl font-bold mb-4">Posts</h1>
 
       <PostList />
     </div>
